@@ -64,6 +64,7 @@ color: #0F3057;
     box-shadow: 5px 5px  rgb(28, 28, 151);
     font-family: 'Roboto Mono', monospace;
     color:#0F3057;
+    background-color: #e7e7de;
 }
 
 .skills {
@@ -74,6 +75,21 @@ color: #0F3057;
     font-family: 'Roboto Mono', monospace;
 }
 
+.card-title {
+    color: rgb(38, 4, 133);
+}
+
+.fullCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-text p {
+    color:rgb(38, 4, 133);
+}
 
 .skills button
 {
@@ -86,6 +102,7 @@ color: #0F3057;
     border: #000 1px solid;
     box-shadow: 5px 5px  rgb(28, 28, 151);
     font-family: 'Roboto Mono', monospace;
+    background-color: #e7e7de;
 }
 
 .contact {

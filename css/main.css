@@ -26,6 +26,9 @@ color: #0F3057;
     text-align: center
 }
 
+.btn-dw:hover {
+    transform: scale(1.1);
+}
 .profile {
     background-color: rgb(38, 4, 133);
     color: white;

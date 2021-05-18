@@ -83,8 +83,14 @@ color: #0F3057;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 10px 5px;
+    
     padding: 4px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.fullCard:hover {
+    background-color:#eeee9527;
+    transform: scale(1.015);
 }
 
 .card-text p {
@@ -96,6 +102,11 @@ color: #0F3057;
  color: white;   
 }
 
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .education {
     
     padding: 20px 20px 20px 20px;

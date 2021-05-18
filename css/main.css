@@ -35,7 +35,10 @@ color: #0F3057;
     padding: 20px 20px 20px 20px;
     font-family: 'Roboto Mono', monospace;;
     box-shadow: 5px 5px  gray;
+    }
 
+.profile:hover {
+    transform: scale(1.1);
 }
 
 .profile-grid {
@@ -60,6 +63,7 @@ color: #0F3057;
     border: #000 1px solid;
     box-shadow: 5px 5px  rgb(28, 28, 151);
     font-family: 'Roboto Mono', monospace;
+    color:#0F3057;
 }
 
 .skills {
@@ -89,18 +93,34 @@ color: #0F3057;
     color: antiquewhite;
     padding: 20px 20px 20px 20px;
     box-shadow: 5px 5px  gray;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Roboto Mono', monospace;
+    height: 150px;
 
+}
+
+.contact p {
+    color: yellow;
+}
+
+.contact a i {
+    transform: scale(1.5);
+}
+
+.contact a i:hover {
+    
+    transform: scale(3);
 }
 
 .contact a {
     color: antiquewhite;
+
     
 }
 
 .footer {
-
+    height: 400px;
     padding: 10px 10px 10px 10px;
+    margin-top: 30px
 }
 
 

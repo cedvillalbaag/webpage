@@ -27,7 +27,7 @@ color: #0F3057;
 }
 
 .btn-dw:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .profile {
     background-color: rgb(38, 4, 133);

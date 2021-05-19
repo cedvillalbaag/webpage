@@ -152,6 +152,9 @@ color: #0F3057;
 }
 
 
+
+/* Medias Queries - Ajuste de Pantalla */
+
 @media(max-width: 1200px) {
     .profile-grid {
         grid-template-columns: 60% 40%;
@@ -162,11 +165,24 @@ color: #0F3057;
     .profile-grid {
         grid-template-columns: 50% 50%;
     }
+
+    .container-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
 }
 
-@media(max-width: 800px) {
+@media(max-width: 770px) {
     .profile-grid {
         grid-template-columns: 100%;
+    }
+
+    .container-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
 
     }
 
@@ -181,4 +197,3 @@ color: #0F3057;
     }
 
     
-}

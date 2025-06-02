@@ -214,6 +214,7 @@ section {
      object-fit: cover;
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
+  border-radius: 5px;
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0%);
@@ -339,22 +340,22 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 90%;
+  width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 80%;
+  width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+  width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
+  width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
   width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 55%;
+  width: 95%;
 }
 
 .stat-title {
